@@ -15,5 +15,56 @@ body {
   p {
     font-size: 20px;font-weight: bold;
   }
-  
+  .nav-link{
+    flex:1;
+    text-align:right;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px 8px;
+    position: relative;
+}
+.nav-link ul li a{
+    color: #868686;
+    text-decoration: none;
+    font-size: 19px;
+}
+.nav-link ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #2c2c2c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-link ul li:hover::after{
+    width:100%
+}
+.ha{
+  list-style: none;
+    display: inline-block;
+    padding: 2px 8px;
+    position: relative;
+
+}
+.ha a{
+    color: #868686;
+    text-decoration: none;
+    font-size: 19px;
+}
+.ha tr td ::after{
+  content:'';
+    width: 0%;
+    height: 2px;
+    background: #2c2c2c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.ha tr td :hover::after{
+  width:100%
+}
   
