@@ -47,6 +47,7 @@ body {
     display: inline-block;
     padding: 2px 8px;
     position: relative;
+    flex: 1;
 
 }
 .ha a{
